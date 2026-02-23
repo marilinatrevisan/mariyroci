@@ -10,23 +10,24 @@ const DressCodeSection = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="py-24 md:py-32 px-6 border-t border-border">
-      <div className="max-w-2xl mx-auto text-center">
-        <p className="text-lg md:text-xl font-body leading-relaxed text-foreground">
+    <section className="py-28 md:py-40 px-6 border-t border-border">
+      <div className="max-w-xl mx-auto text-center">
+        <p className="text-base md:text-lg font-body leading-relaxed text-muted-foreground">
           No hay código de vestimenta. No es formal, ni es con etiqueta.
-          <br />
-          <span className="text-neon-pink">Pero es una fiesta.</span>
+        </p>
+        <p className="mt-2 text-base md:text-lg font-body text-foreground">
+          Pero es una fiesta.
         </p>
         <button
           onClick={() => setOpen(true)}
-          className="mt-8 px-8 py-3 bg-neon-pink text-foreground font-body text-sm uppercase tracking-[0.2em] hover:opacity-80 transition-opacity duration-300 box-glow-pink"
+          className="mt-10 px-8 py-3 border border-foreground text-foreground font-body text-xs uppercase tracking-[0.3em] hover:bg-foreground hover:text-background transition-all duration-300"
         >
           Necesito más info
         </button>
       </div>
 
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="bg-card border-border max-w-lg">
+        <DialogContent className="bg-background border-border max-w-lg">
           <DialogHeader>
             <DialogTitle className="font-display text-2xl text-foreground">
               Sobre la vestimenta

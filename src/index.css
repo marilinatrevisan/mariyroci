@@ -18,24 +18,21 @@
     --primary: 0 0% 100%;
     --primary-foreground: 0 0% 0%;
 
-    --secondary: 0 0% 12%;
+    --secondary: 0 0% 10%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 0 0% 15%;
-    --muted-foreground: 0 0% 65%;
+    --muted-foreground: 0 0% 55%;
 
-    --accent: 330 100% 50%;
+    --accent: 0 0% 20%;
     --accent-foreground: 0 0% 100%;
-
-    --neon-blue: 200 100% 50%;
-    --neon-pink: 330 100% 50%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 0 0% 20%;
-    --input: 0 0% 20%;
-    --ring: 330 100% 50%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 0 0% 100%;
 
     --radius: 0rem;
 
@@ -45,8 +42,8 @@
     --sidebar-primary-foreground: 0 0% 0%;
     --sidebar-accent: 0 0% 15%;
     --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 0 0% 20%;
-    --sidebar-ring: 330 100% 50%;
+    --sidebar-border: 0 0% 18%;
+    --sidebar-ring: 0 0% 100%;
   }
 }
 
@@ -62,32 +59,5 @@
 
   h1, h2, h3, .font-display {
     font-family: 'Bebas Neue', sans-serif;
-  }
-}
-
-@layer utilities {
-  .text-neon-pink {
-    color: hsl(var(--neon-pink));
-  }
-  .text-neon-blue {
-    color: hsl(var(--neon-blue));
-  }
-  .bg-neon-pink {
-    background-color: hsl(var(--neon-pink));
-  }
-  .bg-neon-blue {
-    background-color: hsl(var(--neon-blue));
-  }
-  .border-neon-pink {
-    border-color: hsl(var(--neon-pink));
-  }
-  .glow-pink {
-    text-shadow: 0 0 20px hsl(330 100% 50% / 0.6), 0 0 40px hsl(330 100% 50% / 0.3);
-  }
-  .glow-blue {
-    text-shadow: 0 0 20px hsl(200 100% 50% / 0.6), 0 0 40px hsl(200 100% 50% / 0.3);
-  }
-  .box-glow-pink {
-    box-shadow: 0 0 20px hsl(330 100% 50% / 0.4), 0 0 40px hsl(330 100% 50% / 0.2);
   }
 }
