@@ -40,12 +40,21 @@ const GiftSection = () => {
           </DialogHeader>
           <div className="space-y-4 text-muted-foreground font-body leading-relaxed text-sm">
             <p>
-              Quienes quieran hacernos un regalo que implique dinero, pueden
-              ayudarnos con nuestro viaje de luna de miel {"<3"}
+              Quienes tengan ganas de hacernos un regalo, pueden aportar con
+              nuestro viaje de luna de miel
             </p>
-            <div className="pt-2 space-y-1 text-foreground">
-              <p>alias: lunademiel.mariyroci</p>
-              <p>lunademiel.mariyroci.usd</p>
+            <div className="pt-2 space-y-2 text-foreground">
+              <p>alias:</p>
+              <ul className="list-disc list-inside space-y-1">
+                <li>mariyroci.lunademiel</li>
+              </ul>
+              <p className="text-muted-foreground text-xs break-all">
+                CVU: 0000003100049499420612
+              </p>
+              <p className="text-muted-foreground text-xs">
+                Nombre: Rocio Maria Rodriguez
+              </p>
+              <p className="mt-3">lunademiel.mariyroci.usd</p>
             </div>
           </div>
         </DialogContent>

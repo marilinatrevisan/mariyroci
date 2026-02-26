@@ -64,8 +64,8 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        display: ["Bebas Neue", "sans-serif"],
-        body: ["Space Grotesk", "sans-serif"],
+        display: ["Anton", "sans-serif"],
+        body: ["IBM Plex Mono", "monospace"],
       },
       keyframes: {
         "accordion-down": {

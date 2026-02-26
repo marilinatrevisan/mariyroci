@@ -12,11 +12,8 @@ const DressCodeSection = () => {
   return (
     <section className="py-28 md:py-40 px-6 border-t border-border">
       <div className="max-w-xl mx-auto text-center">
-        <p className="text-base md:text-lg font-body leading-relaxed text-muted-foreground">
-          No hay código de vestimenta. No es formal, ni es con etiqueta.
-        </p>
-        <p className="mt-2 text-base md:text-lg font-body text-foreground">
-          Pero es una fiesta.
+        <p className="text-base md:text-lg font-body text-foreground">
+          Código de vestimenta: festivo.
         </p>
         <button
           onClick={() => setOpen(true)}
@@ -34,15 +31,20 @@ const DressCodeSection = () => {
             </DialogTitle>
           </DialogHeader>
           <div className="space-y-4 text-muted-foreground font-body leading-relaxed text-sm">
+            <p>Un punto intermedio entre formal e informal.</p>
             <p>
-              Como es una fiesta, también es una oportunidad. Quien quiera jugar
-              con el estilo, ponerse esa ropita hermosa para la cual no encuentra
-              ocasión o vestir algo avant-garde (soñado): esta es una gran
-              ocasión. Nadie estará fuera de lugar por ir con su estilo personal.
+              Cómo es una fiesta, también es una oportunidad. Quien quiera jugar
+              con el estilo, aprovechar y usar esa prenda para la cual no
+              encuentra el momento adecuado, vivir su sueño avant-garde o
+              delirar fantasía alfombra roja: tómelo como una gran ocasión.
             </p>
             <p>
-              Un detalle: el espacio es serrano, por lo que hay escaleras y
-              desniveles para tener en cuenta, especialmente en el calzado.
+              Nadie estará fuera de lugar por venir producido con su impronta
+              personal.
+            </p>
+            <p>
+              Un detalle: el espacio es serrano, hay escaleras y desniveles
+              (para tener en cuenta, especialmente en el calzado).
             </p>
           </div>
         </DialogContent>
