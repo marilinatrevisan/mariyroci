@@ -5,6 +5,7 @@ import ScheduleSection from "@/components/ScheduleSection";
 import DressCodeSection from "@/components/DressCodeSection";
 import GiftSection from "@/components/GiftSection";
 import ConfirmSection from "@/components/ConfirmSection";
+import MusicPlayer from "@/components/MusicPlayer";
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <DressCodeSection />
       <GiftSection />
       <ConfirmSection />
+      <MusicPlayer />
     </div>
   );
 };
