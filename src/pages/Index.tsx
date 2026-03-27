@@ -17,6 +17,7 @@ const Index = () => {
       <DressCodeSection />
       <GiftSection />
       <ConfirmSection />
+      <MusicPlayer />
     </div>
   );
 };
