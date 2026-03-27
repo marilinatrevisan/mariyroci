@@ -31,16 +31,15 @@ const DressCodeSection = () => {
             </DialogTitle>
           </DialogHeader>
           <div className="space-y-4 text-muted-foreground font-body leading-relaxed text-sm">
-            <p>Un punto intermedio entre formal e informal.</p>
             <p>
-              Cómo es una fiesta, también es una oportunidad. Quien quiera jugar
-              con el estilo, aprovechar y usar esa prenda para la cual no
-              encuentra el momento adecuado, vivir su sueño avant-garde o
-              delirar fantasía alfombra roja: tómelo como una gran ocasión.
+              Nadie estará fuera de lugar por venir arreglado con su estilo
+              personal, sin necesidad de ajustarse a formalidades de etiqueta.
             </p>
+            <p>Montense como mas les guste.</p>
             <p>
-              Nadie estará fuera de lugar por venir producido con su impronta
-              personal.
+              Quien quiera jugar, aprovechar y usar esa prenda para la que no
+              encuentra ocasión, vivir su sueño avant-garde o delirar fantasía
+              alfombra roja: tómelo como una gran oportunidad.
             </p>
             <p>
               Un detalle: el espacio es serrano, hay escaleras y desniveles
