@@ -1,20 +1,20 @@
 const ConfirmSection = () => {
   return (
-    <section className="py-28 md:py-40 px-6 border-t border-border">
+    <section className="py-32 md:py-44 px-6 border-t border-border">
       <div className="max-w-xl mx-auto text-center">
-        <h2 className="font-display text-5xl md:text-7xl text-foreground tracking-tight">
+        <h2 className="font-display text-6xl md:text-8xl text-foreground tracking-[-0.02em] uppercase">
           Confirmar asistencia
         </h2>
-        <p className="mt-4 font-body text-foreground uppercase tracking-[0.3em] text-xs">
+        <p className="mt-5 font-body text-foreground uppercase tracking-[0.4em] text-[10px]">
           Muy importante
         </p>
-        <p className="mt-6 text-muted-foreground font-body leading-relaxed text-sm">
+        <p className="mt-8 text-muted-foreground font-body leading-relaxed text-sm">
           Recordá confirmar asistencia completando el formulario que te enviamos
           por WhatsApp.
         </p>
       </div>
-      <div className="mt-24 pb-8 text-center">
-        <p className="text-muted-foreground/30 font-body text-[10px] uppercase tracking-[0.4em]">
+      <div className="mt-28 pb-10 text-center">
+        <p className="text-muted-foreground/20 font-body text-[9px] uppercase tracking-[0.5em]">
           Mari & Roci · 2026
         </p>
       </div>

@@ -6,15 +6,15 @@ const scheduleItems = [
 
 const ScheduleSection = () => {
   return (
-    <section className="py-28 md:py-40 px-6 border-t border-border">
-      <div className="max-w-4xl mx-auto">
-        <div className="space-y-10 md:space-y-0 md:flex md:justify-center md:gap-20">
+    <section className="py-32 md:py-44 px-6 border-t border-border">
+      <div className="max-w-5xl mx-auto">
+        <div className="space-y-12 md:space-y-0 md:flex md:justify-between md:items-baseline">
           {scheduleItems.map((item) => (
             <div key={item.label} className="text-center">
-              <span className="font-display text-5xl md:text-7xl text-foreground">
+              <span className="font-display text-6xl md:text-8xl text-foreground tracking-[-0.02em]">
                 {item.time}
               </span>
-              <p className="mt-2 text-muted-foreground font-body uppercase tracking-[0.3em] text-xs">
+              <p className="mt-3 text-muted-foreground font-body uppercase tracking-[0.4em] text-[10px]">
                 {item.label}
               </p>
             </div>

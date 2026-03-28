@@ -2,12 +2,12 @@ const HeroSection = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-6">
       <div className="text-center">
-        <h1 className="font-display text-[clamp(5rem,18vw,14rem)] leading-[0.85] tracking-tight text-foreground">
+        <h1 className="font-display text-[clamp(6rem,20vw,16rem)] leading-[0.82] tracking-[-0.02em] text-foreground uppercase">
           MARI
-          <span className="block text-muted-foreground">&</span>
+          <span className="block text-muted-foreground text-[0.5em] leading-[1.6]">&</span>
           ROCI
         </h1>
-        <p className="mt-8 text-sm md:text-base font-body uppercase tracking-[0.4em] text-muted-foreground">
+        <p className="mt-10 text-[10px] md:text-xs font-body uppercase tracking-[0.5em] text-muted-foreground">
           Nos casamos y hacemos una fiesta
         </p>
       </div>
