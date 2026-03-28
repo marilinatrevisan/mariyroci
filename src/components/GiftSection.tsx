@@ -10,22 +10,22 @@ const GiftSection = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="py-28 md:py-40 px-6 border-t border-border">
+    <section className="py-32 md:py-44 px-6 border-t border-border">
       <div className="max-w-xl mx-auto text-center">
-        <h2 className="font-display text-5xl md:text-7xl text-foreground tracking-tight">
+        <h2 className="font-display text-6xl md:text-8xl text-foreground tracking-[-0.02em] uppercase">
           Regalo
         </h2>
-        <div className="mt-8 space-y-1">
-          <p className="font-body text-muted-foreground text-sm tracking-wide">
+        <div className="mt-10 space-y-1">
+          <p className="font-body text-muted-foreground text-xs tracking-wide">
             alias: lunademiel.mariyroci
           </p>
-          <p className="font-body text-muted-foreground text-sm tracking-wide">
+          <p className="font-body text-muted-foreground text-xs tracking-wide">
             lunademiel.mariyroci.usd
           </p>
         </div>
         <button
           onClick={() => setOpen(true)}
-          className="mt-10 px-8 py-3 border border-foreground text-foreground font-body text-xs uppercase tracking-[0.3em] hover:bg-foreground hover:text-background transition-all duration-300"
+          className="mt-12 px-10 py-3 border border-foreground text-foreground font-body text-[10px] uppercase tracking-[0.4em] hover:bg-foreground hover:text-background transition-all duration-300"
         >
           No entendí
         </button>
@@ -34,7 +34,7 @@ const GiftSection = () => {
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="bg-background border-border max-w-lg">
           <DialogHeader>
-            <DialogTitle className="font-display text-2xl text-foreground">
+            <DialogTitle className="font-display text-3xl text-foreground tracking-[-0.02em] uppercase">
               Sobre el regalo
             </DialogTitle>
           </DialogHeader>

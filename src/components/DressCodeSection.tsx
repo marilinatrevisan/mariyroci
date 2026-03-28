@@ -10,14 +10,14 @@ const DressCodeSection = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="py-28 md:py-40 px-6 border-t border-border">
+    <section className="py-32 md:py-44 px-6 border-t border-border">
       <div className="max-w-xl mx-auto text-center">
-        <p className="text-base md:text-lg font-body text-foreground">
+        <p className="text-sm md:text-base font-body text-foreground leading-relaxed">
           Código de vestimenta: festivo.
         </p>
         <button
           onClick={() => setOpen(true)}
-          className="mt-10 px-8 py-3 border border-foreground text-foreground font-body text-xs uppercase tracking-[0.3em] hover:bg-foreground hover:text-background transition-all duration-300"
+          className="mt-12 px-10 py-3 border border-foreground text-foreground font-body text-[10px] uppercase tracking-[0.4em] hover:bg-foreground hover:text-background transition-all duration-300"
         >
           Necesito más info
         </button>
@@ -26,8 +26,8 @@ const DressCodeSection = () => {
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="bg-background border-border max-w-lg">
           <DialogHeader>
-            <DialogTitle className="font-display text-2xl text-foreground">
-              Sobre la vestimenta
+            <DialogTitle className="font-display text-3xl text-foreground tracking-[-0.02em] uppercase">
+              Vestimenta
             </DialogTitle>
           </DialogHeader>
           <div className="space-y-4 text-muted-foreground font-body leading-relaxed text-sm">
