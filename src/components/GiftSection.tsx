@@ -17,10 +17,10 @@ const GiftSection = () => {
         </h2>
         <div className="mt-10 space-y-1">
           <p className="font-body text-muted-foreground text-xs tracking-wide">
-            alias: lunademiel.mariyroci
+            alias: mariyroci
           </p>
           <p className="font-body text-muted-foreground text-xs tracking-wide">
-            lunademiel.mariyroci.usd
+            mariyroci.usd
           </p>
         </div>
         <button
