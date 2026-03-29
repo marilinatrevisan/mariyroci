@@ -38,23 +38,26 @@ const GiftSection = () => {
               Sobre el regalo
             </DialogTitle>
           </DialogHeader>
-          <div className="space-y-4 text-muted-foreground font-body leading-relaxed text-sm">
+          <div className="space-y-6 text-muted-foreground font-body leading-relaxed text-sm">
             <p>
               Quienes tengan ganas de hacernos un regalo, pueden aportar con
-              nuestro viaje de luna de miel
+              nuestro viaje de luna de miel.
             </p>
-            <div className="pt-2 space-y-2 text-foreground">
-              <p>alias:</p>
-              <ul className="list-disc list-inside space-y-1">
-                <li>mariyroci.lunademiel</li>
-              </ul>
-              <p className="text-muted-foreground text-xs break-all">
-                CVU: 0000003100049499420612
-              </p>
-              <p className="text-muted-foreground text-xs">
-                Nombre: Rocio Maria Rodriguez
-              </p>
-              <p className="mt-3">lunademiel.mariyroci.usd</p>
+            <div className="space-y-1 text-foreground">
+              <p className="font-bold text-xs uppercase tracking-widest">Cuenta en pesos</p>
+              <p className="text-muted-foreground text-xs">Alias: MARIYROCI</p>
+              <p className="text-muted-foreground text-xs break-all">CVU: 0000003100049499420612</p>
+              <p className="text-muted-foreground text-xs">Titular: Rocio Maria Rodriguez</p>
+              <p className="text-muted-foreground text-xs">CUIL: 27376161930</p>
+              <p className="text-muted-foreground text-xs">Mercado Pago</p>
+            </div>
+            <div className="space-y-1 text-foreground">
+              <p className="font-bold text-xs uppercase tracking-widest">Cuenta en dólares</p>
+              <p className="text-muted-foreground text-xs">Alias: MARIYROCI.USD</p>
+              <p className="text-muted-foreground text-xs break-all">CBU: 4530000800023863868282</p>
+              <p className="text-muted-foreground text-xs">Titular: Rocio Maria Rodriguez</p>
+              <p className="text-muted-foreground text-xs">CUIL: 27376161930</p>
+              <p className="text-muted-foreground text-xs">Naranja X</p>
             </div>
           </div>
         </DialogContent>
