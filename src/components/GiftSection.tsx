@@ -41,7 +41,7 @@ const GiftSection = () => {
           <div className="space-y-6 text-muted-foreground font-body leading-relaxed text-sm">
             <p>
               Quienes tengan ganas de hacernos un regalo, pueden aportar con
-              nuestro viaje de luna de miel.
+              nuestro viaje de luna de miel 🤍🖤.
             </p>
             <div className="space-y-1 text-foreground">
               <p className="font-bold text-xs uppercase tracking-widest">Cuenta en pesos</p>
