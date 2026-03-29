@@ -10,7 +10,7 @@ const DressCodeSection = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <section className="py-32 md:py-44 px-6 border-t border-[#f10486]">
+    <section className="py-32 md:py-44 px-6 border-t border-primary">
       <div className="max-w-xl mx-auto text-center">
         <p className="text-sm md:text-base font-body text-foreground leading-relaxed">
           Código de vestimenta: festivo.

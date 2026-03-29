@@ -6,7 +6,7 @@ const scheduleItems = [
 
 const ScheduleSection = () => {
   return (
-    <section className="py-32 md:py-44 px-6 border-t border-[#f10486]">
+    <section className="py-32 md:py-44 px-6 border-t border-primary">
       <div className="max-w-5xl mx-auto">
         <div className="space-y-12 md:space-y-0 md:flex md:justify-between md:items-baseline">
           {scheduleItems.map((item) => (
