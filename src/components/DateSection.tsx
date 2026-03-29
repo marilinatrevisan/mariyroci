@@ -1,6 +1,6 @@
 const DateSection = () => {
   return (
-    <section className="py-32 md:py-44 px-6 border-t border-border">
+    <section className="py-32 md:py-44 px-6 border-t border-[#f10486]">
       <div className="max-w-4xl mx-auto text-center">
         <div className="flex flex-col items-center gap-0">
           <span className="font-display text-[clamp(7rem,25vw,18rem)] leading-[0.85] tracking-[-0.02em] text-foreground">05</span>

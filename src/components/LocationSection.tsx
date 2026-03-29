@@ -1,6 +1,6 @@
 const LocationSection = () => {
   return (
-    <section className="py-32 md:py-44 px-6 border-t border-border">
+    <section className="py-32 md:py-44 px-6 border-t border-[#f10486]">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="font-display text-5xl md:text-8xl text-foreground tracking-[-0.02em] uppercase">
           Aldea Nativa
