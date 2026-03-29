@@ -12,7 +12,7 @@ const LocationSection = () => {
           href="https://maps.app.goo.gl/kCVDvUrwGBC3ZFaY7"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block mt-12 px-10 py-3 border border-foreground text-foreground font-body text-[10px] uppercase tracking-[0.4em] hover:bg-foreground hover:text-background transition-all duration-300"
+          className="inline-block mt-12 px-10 py-3 border border-foreground text-foreground font-body text-[10px] uppercase tracking-[0.4em] hover:bg-foreground hover:text-background transition-all duration-300 focus:outline-none focus-visible:outline-none"
         >
           Ver en Maps
         </a>
