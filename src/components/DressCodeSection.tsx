@@ -31,11 +31,11 @@ const DressCodeSection = () => {
             </DialogTitle>
           </DialogHeader>
           <div className="space-y-4 text-muted-foreground font-body leading-relaxed text-sm">
+            <p>Un punto intermedio entre formal e informal.</p>
             <p>
               Nadie estará fuera de lugar por venir arreglado con su estilo
-              personal, sin necesidad de ajustarse a formalidades de etiqueta.
+              personal.
             </p>
-            <p>Montense como mas les guste.</p>
             <p>
               Quien quiera jugar, aprovechar y usar esa prenda para la que no
               encuentra ocasión, vivir su sueño avant-garde o delirar fantasía
