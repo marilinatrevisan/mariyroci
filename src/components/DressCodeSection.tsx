@@ -31,7 +31,6 @@ const DressCodeSection = () => {
             </DialogTitle>
           </DialogHeader>
           <div className="space-y-4 text-muted-foreground font-body leading-relaxed text-sm">
-            <p>Un punto intermedio entre formal e informal.</p>
             <p>
               Nadie estará fuera de lugar por venir arreglado con su estilo
               personal.
