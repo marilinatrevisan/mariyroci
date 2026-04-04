@@ -1,7 +1,7 @@
 const scheduleItems = [
   { time: "19 HS", label: "Ceremonia" },
   { time: "23 HS", label: "Fiesta" },
-  { time: "05 HS", label: "Fin de fiesta" },
+  { time: "04 HS", label: "Fin de fiesta" },
 ];
 
 const ScheduleSection = () => {
