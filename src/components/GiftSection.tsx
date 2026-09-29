@@ -20,7 +20,7 @@ const GiftSection = () => {
             alias: mariyroci
           </p>
           <p className="font-body text-muted-foreground text-xs tracking-wide">
-            mariyroci.usd
+            mariyroci.dolar
           </p>
         </div>
         <button
