@@ -53,11 +53,11 @@ const GiftSection = () => {
             </div>
             <div className="space-y-1 text-foreground">
               <p className="font-bold text-xs uppercase tracking-widest">Cuenta en dólares</p>
-              <p className="text-muted-foreground text-xs">Alias: MARIYROCI.USD</p>
-              <p className="text-muted-foreground text-xs break-all">CBU: 4530000800023863868282</p>
+              <p className="text-muted-foreground text-xs">Alias: MARIYROCI.DOLAR</p>
+              <p className="text-muted-foreground text-xs break-all">CBU: 0110127631012710829666</p>
               <p className="text-muted-foreground text-xs">Titular: Rocio Maria Rodriguez</p>
               <p className="text-muted-foreground text-xs">CUIL: 27376161930</p>
-              <p className="text-muted-foreground text-xs">Naranja X</p>
+              <p className="text-muted-foreground text-xs">Banco Nacion</p>
             </div>
           </div>
         </DialogContent>
